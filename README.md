@@ -1,6 +1,6 @@
 # Retail Sales & Inventory Management System
 
-A basic-to-moderate desktop project built with **Python, Tkinter, and SQL (SQLite)**.
+project built with **Python, Tkinter, and SQL (SQLite)**.
 
 ## Features
 - Add products
@@ -46,12 +46,6 @@ The `retail.db` database is created automatically the first time the application
 - total_amount
 - sale_date
 
-## Resume Description
-
 **Retail Sales & Inventory Management System | Python, SQL, SQLite**
 
 Developed a desktop application to manage products, inventory, and sales using Python and SQL. Implemented product search, stock tracking, sales recording, automatic stock updates, low-stock detection, and sales summary features using a relational SQLite database.
-
-## Interview Explanation
-
-The application uses Python for the application logic and Tkinter for the interface. SQLite stores product and sales information. When a sale is recorded, a SQL UPDATE query reduces the available stock and an INSERT query stores the transaction in the sales table. This demonstrates CRUD operations, SQL queries, database relationships, and basic application development.
